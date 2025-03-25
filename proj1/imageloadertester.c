@@ -16,7 +16,7 @@
 #include <inttypes.h>
 #include "imageloader.h"
 
-void processCLI(int argc, char **argv, char **filename) 
+void processCLI(int argc, char **argv, char **filename)
 {
 	if (argc != 2) {
 		printf("usage: %s filename\n",argv[0]);
